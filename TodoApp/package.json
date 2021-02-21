@@ -1,5 +1,5 @@
 {
-  "name": "todo_api",
+  "name": "todoapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/Gilbertkitetu/React-Express-Crud/issues"
   },
-  "homepage": "https://github.com/Gilbertkitetu/React-Express-Crud#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/Gilbertkitetu/React-Express-Crud#readme"
 }

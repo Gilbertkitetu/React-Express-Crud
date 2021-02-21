@@ -1,0 +1,26 @@
+form{
+    padding: 50px;
+
+
+}
+form label{
+    padding: 20px;
+}
+form label input{
+    color: black;
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+#sub-button{
+background-color: white;
+    padding: 10px;
+    width: 150px;
+
+}
+button{
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+
+}
