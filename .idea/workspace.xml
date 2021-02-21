@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aefb8ef2-0ab6-416d-8490-46d0ed0ba50e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoApp/api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/views/error.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/views/index.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo_db/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
       <workItem from="1613730308261" duration="6866000" />
       <workItem from="1613897264413" duration="10907000" />
       <workItem from="1613914727540" duration="128000" />
-      <workItem from="1613914983937" duration="1162000" />
+      <workItem from="1613914983937" duration="2220000" />
     </task>
     <servers />
   </component>

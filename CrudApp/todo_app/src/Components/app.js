@@ -18,7 +18,11 @@ class App extends Component {
 
     render() {
         return(
-            <h1>Welcome to react</h1>
+<div>
+    <h1>Welcome to React</h1>
+    <h1>{this.state.apiResponse} </h1>
+</div>
+
         );
     }
 }

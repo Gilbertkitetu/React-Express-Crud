@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './form.css';
 import Showall from "./showall";
+import App from "./app";
 class Form extends React.Component {
     constructor(props) {
         super(props);
@@ -49,6 +50,7 @@ class Form extends React.Component {
 
             </form>
 <Showall/>
+<App/>
             </div>
         );
     }
