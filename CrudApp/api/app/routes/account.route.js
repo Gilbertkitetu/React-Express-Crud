@@ -5,7 +5,7 @@ let mongoose = require('mongoose'),
 // Account Model
 let accountSchema = require('../models/Account');
 
-// CREATE Student
+// CREATE Account
 router.route('/create-account').post((req, res, next) => {
     accountSchema.create(req.body, (error, data) => {
         if (error) {
@@ -28,7 +28,7 @@ router.route('/').get((req, res) => {
     })
 })
 
-// Get Single Student
+// Get Single account
 router.route('/edit-account/:id').get((req, res) => {
     accountSchema.findById(req.params.id, (error, data) => {
         if (error) {
@@ -41,7 +41,7 @@ router.route('/edit-account/:id').get((req, res) => {
 
 
 // Update account
-router.route('/update-student/:id').put((req, res, next) => {
+router.route('/update-account/:id').put((req, res, next) => {
     accountSchema.findByIdAndUpdate(req.params.id, {
         $set: req.body
     }, (error, data) => {
@@ -55,7 +55,7 @@ router.route('/update-student/:id').put((req, res, next) => {
     })
 })
 
-// Delete Student
+// Delete Account
 router.route('/delete-account/:id').delete((req, res, next) => {
     accountSchema.findByIdAndRemove(req.params.id, (error, data) => {
         if (error) {

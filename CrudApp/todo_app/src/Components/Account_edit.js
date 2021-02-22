@@ -46,7 +46,7 @@ export default class Account_edit extends Component {
     onSubmit(e) {
         e.preventDefault()
 
-        const studentObject = {
+        const accountObject = {
             name: this.state.name,
             email: this.state.email
         };
@@ -59,7 +59,7 @@ export default class Account_edit extends Component {
             console.log(error)
         })
 
-        // Redirect to Student List
+        // Redirect to Account List
         this.props.history.push('/account-list')
     }
 

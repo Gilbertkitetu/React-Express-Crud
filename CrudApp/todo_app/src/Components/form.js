@@ -4,6 +4,10 @@ import './form.css';
 import Showall from "./showall";
 import App from "./app";
 import axios from 'axios';
+import Account_list from "./account_list";
+import AccountTableRow from "./AccountTableRow";
+import Account_edit from "./Account_edit";
+
 
 class Form extends React.Component {
     constructor(props) {
@@ -29,7 +33,7 @@ class Form extends React.Component {
         event.preventDefault();
 
         const accountObject = {
-            name: this.state.name,
+            name: this.state.value,
             email: this.state.email,
 
         };
@@ -63,8 +67,12 @@ class Form extends React.Component {
 
 
             </form>
-<Showall/>
-<App/>
+
+
+<Account_list/>
+
+
+
             </div>
         );
     }
