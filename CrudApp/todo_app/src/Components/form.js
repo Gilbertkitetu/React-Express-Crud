@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './form.css';
 import Showall from "./showall";
 import App from "./app";
+import axios from 'axios';
+
 class Form extends React.Component {
     constructor(props) {
         super(props);
@@ -12,6 +14,7 @@ class Form extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleEmailChange = this.handleEmailChange.bind(this);
+
     }
 
     handleChange(event) {
@@ -22,8 +25,19 @@ class Form extends React.Component {
     }
     handleSubmit(event) {
         alert('A name: ' + this.state.value + ' & email: ' + this.state.email + ' was submitted.');
+
         event.preventDefault();
-        event.preventDefault();
+
+        const accountObject = {
+            name: this.state.name,
+            email: this.state.email,
+
+        };
+        axios.post('http://localhost:9000/accounts/create-account', accountObject)
+            .then(res => console.log(res.data));
+
+        this.setState({ name: '', email: ''})
+
     }
 
 
