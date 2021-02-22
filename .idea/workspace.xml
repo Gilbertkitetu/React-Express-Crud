@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aefb8ef2-0ab6-416d-8490-46d0ed0ba50e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CrudApp/api/app/Models/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrudApp/api/app/database/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrudApp/api/app/routes/account.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrudApp/api/app/routes/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrudApp/api/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/cors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/cors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/qs/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudApp/api/app/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/node_modules/raw-body/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrudApp/api/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrudApp/api/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/api/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp/todo_app/src/Components/form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +70,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gilbert Kitetu\Desktop\Projects\learnReact\Crud\CrudApp\api\app\routes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +89,8 @@
       <workItem from="1613730308261" duration="6866000" />
       <workItem from="1613897264413" duration="10907000" />
       <workItem from="1613914727540" duration="128000" />
-      <workItem from="1613914983937" duration="2220000" />
+      <workItem from="1613914983937" duration="4389000" />
+      <workItem from="1613923705128" duration="5045000" />
     </task>
     <servers />
   </component>
